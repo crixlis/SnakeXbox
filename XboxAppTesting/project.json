@@ -1,0 +1,18 @@
+{
+  "version": "1.0.0-*",
+  "testRunner": "xunit",
+  "dependencies": {
+    "Microsoft.NETCore.UniversalWindowsPlatform": "5.1.0",
+    "Microsoft.CodeCoverage": "1.0.2",
+    "xunit": "2.2.0"
+  },
+  "frameworks": {
+    "uap10.0": {
+      "dependencies": {
+        "XboxApp": {
+          "target": "project"
+        }
+      }
+    }
+  }
+}
